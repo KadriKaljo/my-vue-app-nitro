@@ -32,7 +32,7 @@ npm install
 # Käivita arendusserver
 npm run dev
 
-# Rakendus on kättesaadav: http://localhost:5173
+# Rakendus on kättesaadav: http://localhost:5175
 ```
 
 ### Build

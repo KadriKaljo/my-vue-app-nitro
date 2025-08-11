@@ -1,1 +1,44 @@
 @import "tailwindcss";
+
+/* NITRO Colors */
+@theme {
+  /* Primary (PersianGreen) Colors */
+  --color-nitro-green-50: #E5F6F4;
+  --color-nitro-green-100: #CCEDE9;
+  --color-nitro-green-200: #99DBD4;
+  --color-nitro-green-300: #66CABE;
+  --color-nitro-green-400: #33B8A9;
+  --color-nitro-green-500: #00A693; 
+  --color-nitro-green-600: #008576;
+  --color-nitro-green-700: #006458;
+  --color-nitro-green-800: #004849;
+  --color-nitro-green-900: #00211D;
+
+  /* Neutral Grey Colors */
+  --color-nitro-grey-50: #F5F6F9;
+  --color-nitro-grey-100: #E6E9F0;
+  --color-nitro-grey-200: #D7DBE6;
+  --color-nitro-grey-300: #C9CEDD;
+  --color-nitro-grey-400: #BAC1D4;
+  --color-nitro-grey-500: #9CA6C1; 
+  --color-nitro-grey-600: #818EB0;
+  --color-nitro-grey-700: #546286;
+  --color-nitro-grey-800: #323850;
+  --color-nitro-grey-900: #111418;
+
+  /* Error Colors */
+  --color-nitro-error-50: #FEF2F2;
+  --color-nitro-error-100: #FEE2E2;
+  --color-nitro-error-200: #FECACA;
+  --color-nitro-error-300: #FCA5A5;
+  --color-nitro-error-400: #F87171;
+  --color-nitro-error-500: #EF4444;
+  --color-nitro-error-600: #DC2626;
+  --color-nitro-error-700: #B91C1C;
+  --color-nitro-error-800: #99181B;
+  --color-nitro-error-900: #7F1D1D;
+
+  /* Shades Colors */
+  --color-nitro-shades-50: #001412;
+  --color-nitro-shades-300: #FFFFFF;
+}
