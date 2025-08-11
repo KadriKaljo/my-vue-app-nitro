@@ -41,4 +41,57 @@
   /* Shades Colors */
   --color-nitro-shades-50: #001412;
   --color-nitro-shades-300: #FFFFFF;
+
+  /* Typography System */
+  --font-family-display: Arial, sans-serif;
+  --font-family-body: Arial, sans-serif;
+
+  /* Display fonts */
+  --font-size-display-1: 64px;
+  --line-height-display-1: 72px;
+  --font-size-display-2: 56px;
+  --line-height-display-2: 64px;
+
+  /* Heading fonts */
+  --font-size-heading-1: 48px;
+  --line-height-heading-1: 56px;
+  --font-size-heading-2: 40px;
+  --line-height-heading-2: 48px;
+  --font-size-heading-3: 32px;
+  --line-height-heading-3: 40px;
+  --font-size-heading-4: 24px;
+  --line-height-heading-4: 32px;
+  --font-size-heading-5: 20px;
+  --line-height-heading-5: 28px;
+  --font-size-heading-6: 18px;
+  --line-height-heading-6: 24px;
+
+  /* Body text */
+  --font-size-body: 16px;
+  --line-height-body: 24px;
+  --font-size-small: 14px;
+  --line-height-small: 20px;
+  --font-size-tiny: 12px;
+  --line-height-tiny: 16px;
+
+  /* Grid System - Responsive */
+  /* Mobile (320-767px) */
+  --container-padding-mobile: 16px;
+  --grid-columns-mobile: 4;
+  --grid-gap-mobile: 8px;
+  
+  /* Tablet (768-991px) */
+  --container-padding-tablet: 32px;
+  --grid-columns-tablet: 12;
+  --grid-gap-tablet: 32px;
+  
+  /* Desktop (992-1279px) */
+  --container-padding-desktop: 80px;
+  --grid-columns-desktop: 12;
+  --grid-gap-desktop: 16px;
+  
+  /* Large Desktop (1280-1920px) */
+  --container-padding-xl: 148px;
+  --grid-columns-xl: 12;
+  --grid-gap-xl: 32px;
 }
