@@ -87,7 +87,7 @@
             system so the product stays consistent throught the process.
           </p>
         </div>
-        <div class="mb-10">
+        <div class="mb-5">
           <p class="font-semibold text-[48px] mb-5">5. Prototype</p>
           <p class="text-[20px] max-w-4xl mb-5">
             It’s time implement those High fidelity mockups into actions, this
