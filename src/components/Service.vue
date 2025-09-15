@@ -6,6 +6,8 @@ import OurWorkProcess3 from './ServiceParts/OurWorkProcess3.vue';
 import UxDesignProcess4 from './ServiceParts/UxDesignProcess4.vue';
 import Design5 from './ServiceParts/Design5.vue';
 import WebDevelopment6 from './ServiceParts/WebDevelopment6.vue';
+import Seo7 from './ServiceParts/Seo7.vue'
+
 </script>
 
 <template>
@@ -15,5 +17,6 @@ import WebDevelopment6 from './ServiceParts/WebDevelopment6.vue';
     <UxDesignProcess4></UxDesignProcess4>
     <Design5></Design5>
     <WebDevelopment6></WebDevelopment6>
+    <Seo7></Seo7>
     <Footer></Footer>
 </template>

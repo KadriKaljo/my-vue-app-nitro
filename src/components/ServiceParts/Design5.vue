@@ -2,8 +2,7 @@
 <template>
   <div class="px-[40px] py-[80px]">
     <div
-      class="bg-[#CCEDE9] px-[100px] py-[32px] text-[#004849] flex items-center gap-8"
-    >
+      class="bg-[#CCEDE9] px-[100px] py-[32px] text-[#004849] flex items-center gap-8">
       <div>
         <p class="font-semibold text-[64px] mb-8">Design</p>
         <p class="text-[20px] mb-8">
