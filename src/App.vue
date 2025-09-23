@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AboutUs from './components/AboutUs.vue';
 import Footer from './components/Footer.vue';
 import Service from './components/Service.vue';
 import Homepage from './views/homepage.vue';
@@ -9,8 +10,10 @@ import Homepage from './views/homepage.vue';
     <h1 class="text-4xl md:text-6xl font-semibold tracking-[-0.02em]">New beginning</h1>
   </section>
   <div>
-    <Service></Service>
+    <Homepage />
+    <AboutUs></AboutUs>
+    
     <Footer></Footer>
   </div>
-  <Homepage />
+  
 </template>
