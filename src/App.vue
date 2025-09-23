@@ -10,9 +10,10 @@ import Homepage from './views/homepage.vue';
     <h1 class="text-4xl md:text-6xl font-semibold tracking-[-0.02em]">New beginning</h1>
   </section>
   <div>
+    <Homepage />
     <AboutUs></AboutUs>
-    <Service></Service>
+    
     <Footer></Footer>
   </div>
-  <Homepage />
+  
 </template>
