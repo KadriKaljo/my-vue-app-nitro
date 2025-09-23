@@ -1,17 +1,17 @@
 <template>
-    <header class="w-full bg-black">
+    <header class="w-full bg-transparent">
       <div 
         class="h-[60px] md:h-[63px] 
                max-w-[1640px] mx-auto 
                flex items-center justify-between 
-               px-[var(--container-padding-mobile)] 
-               md:px-[var(--container-padding-tablet)] 
-               lg:px-[var(--container-padding-desktop)] 
-               xl:px-[var(--container-padding-xl)]">
+               px-container-padding-mobile 
+               md:px-container-padding-tablet
+               lg:px-container-padding-desktop 
+               xl:px-container-padding-xl">
         
         <span 
-          class="text-heading-3 leading-heading-3 font-normal text-white 
-                 md:text-heading-2 md:leading-heading-2 md:font-medium">
+          class="text-heading-3 leading-heading-3 font-normal text-white
+                 sm:text-heading-2 sm:leading-heading-2 sm:font-medium">
           Nitro
         </span>
   

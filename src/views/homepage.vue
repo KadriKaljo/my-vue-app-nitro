@@ -1,9 +1,14 @@
-<script setup lang="ts">
-import Header from '../components/header.vue';
+<script setup>
+import hero from '../components/homepage/hero.vue';
+import ourservices from '../components/homepage/OurServices.vue';
+import selectedworks from '../components/homepage/SelectedWorks.vue';
 </script>
 
 <template>
+
   <div>
-    <Header />
+    <hero />
+    <ourservices />
+    <selectedworks />
   </div>
 </template>

@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import Homepage from './views/homepage.vue';
 </script>
 

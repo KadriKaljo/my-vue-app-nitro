@@ -1,97 +1,68 @@
 @import "tailwindcss";
 
-/* NITRO Colors */
+/* NITRO tokens (Tailwind v4) */
 @theme {
-  /* Primary (PersianGreen) Colors */
-  --color-nitro-green-50: #E5F6F4;
-  --color-nitro-green-100: #CCEDE9;
-  --color-nitro-green-200: #99DBD4;
-  --color-nitro-green-300: #66CABE;
-  --color-nitro-green-400: #33B8A9;
-  --color-nitro-green-500: #00A693; 
-  --color-nitro-green-600: #008576;
-  --color-nitro-green-700: #006458;
-  --color-nitro-green-800: #004849;
-  --color-nitro-green-900: #00211D;
 
-  /* Neutral Grey Colors */
-  --color-nitro-grey-50: #F5F6F9;
-  --color-nitro-grey-100: #E6E9F0;
-  --color-nitro-grey-200: #D7DBE6;
-  --color-nitro-grey-300: #C9CEDD;
-  --color-nitro-grey-400: #BAC1D4;
-  --color-nitro-grey-500: #9CA6C1; 
-  --color-nitro-grey-600: #818EB0;
-  --color-nitro-grey-700: #546286;
-  --color-nitro-grey-800: #323850;
-  --color-nitro-grey-900: #111418;
+  /* Colors */
+  --color-nitro-green-50:#E5F6F4; --color-nitro-green-100:#CCEDE9;
+  --color-nitro-green-200:#99DBD4; --color-nitro-green-300:#66CABE;
+  --color-nitro-green-400:#33B8A9; --color-nitro-green-500:#00A693;
+  --color-nitro-green-600:#008576; --color-nitro-green-700:#006458;
+  --color-nitro-green-800:#004849; --color-nitro-green-900:#00211D;
 
-  /* Error Colors */
-  --color-nitro-error-50: #FEF2F2;
-  --color-nitro-error-100: #FEE2E2;
-  --color-nitro-error-200: #FECACA;
-  --color-nitro-error-300: #FCA5A5;
-  --color-nitro-error-400: #F87171;
-  --color-nitro-error-500: #EF4444;
-  --color-nitro-error-600: #DC2626;
-  --color-nitro-error-700: #B91C1C;
-  --color-nitro-error-800: #99181B;
-  --color-nitro-error-900: #7F1D1D;
+  --color-nitro-grey-50:#F5F6F9; --color-nitro-grey-100:#E6E9F0;
+  --color-nitro-grey-200:#D7DBE6; --color-nitro-grey-300:#C9CEDD;
+  --color-nitro-grey-400:#BAC1D4; --color-nitro-grey-500:#9CA6C1;
+  --color-nitro-grey-600:#818EB0; --color-nitro-grey-700:#546286;
+  --color-nitro-grey-800:#323850; --color-nitro-grey-900:#111418;
 
-  /* Shades Colors */
-  --color-nitro-shades-50: #001412;
-  --color-nitro-shades-300: #FFFFFF;
+  --color-nitro-error-50:#FEF2F2; --color-nitro-error-100:#FEE2E2;
+  --color-nitro-error-200:#FECACA; --color-nitro-error-300:#FCA5A5;
+  --color-nitro-error-400:#F87171; --color-nitro-error-500:#EF4444;
+  --color-nitro-error-600:#DC2626; --color-nitro-error-700:#B91C1C;
+  --color-nitro-error-800:#99181B; --color-nitro-error-900:#7F1D1D;
 
-  /* Typography System */
-  --font-family-display: Arial, sans-serif;
-  --font-family-body: Arial, sans-serif;
+  --color-nitro-shades-50:#001412; --color-nitro-shades-300:#FFFFFF;
 
-  /* Display fonts */
-  --font-size-display-1: 64px;
-  --line-height-display-1: 72px;
-  --font-size-display-2: 56px;
-  --line-height-display-2: 64px;
+  /* Fonts (vajalikud klassidele font-display/body) */
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
 
-  /* Heading fonts */
-  --font-size-heading-1: 48px;
-  --line-height-heading-1: 56px;
-  --font-size-heading-2: 40px;
-  --line-height-heading-2: 48px;
-  --font-size-heading-3: 32px;
-  --line-height-heading-3: 40px;
-  --font-size-heading-4: 24px;
-  --line-height-heading-4: 32px;
-  --font-size-heading-5: 20px;
-  --line-height-heading-5: 28px;
-  --font-size-heading-6: 18px;
-  --line-height-heading-6: 24px;
+  /* Display */
+  --text-display-1:64px; --leading-display-1:83px;
+  --text-display-2:56px; --leading-display-2:64px;
 
-  /* Body text */
-  --font-size-body: 16px;
-  --line-height-body: 24px;
-  --font-size-small: 14px;
-  --line-height-small: 20px;
-  --font-size-tiny: 12px;
-  --line-height-tiny: 16px;
+  /* Headings */
+  --text-heading-1:48px; --leading-heading-1:56px;
+  --text-heading-2:40px; --leading-heading-2:48px;
+  --text-heading-3:32px; --leading-heading-3:40px;
+  --text-heading-4:24px; --leading-heading-4:32px;
+  --text-heading-5:20px; --leading-heading-5:28px;
+  --text-heading-6:18px; --leading-heading-6:24px;
 
-  /* Grid System - Responsive */
-  /* Mobile (320-767px) */
-  --container-padding-mobile: 16px;
-  --grid-columns-mobile: 4;
-  --grid-gap-mobile: 8px;
-  
-  /* Tablet (768-991px) */
-  --container-padding-tablet: 32px;
-  --grid-columns-tablet: 12;
-  --grid-gap-tablet: 32px;
-  
-  /* Desktop (992-1279px) */
-  --container-padding-desktop: 80px;
-  --grid-columns-desktop: 12;
-  --grid-gap-desktop: 16px;
-  
-  /* Large Desktop (1280-1920px) */
-  --container-padding-xl: 148px;
-  --grid-columns-xl: 12;
-  --grid-gap-xl: 32px;
+  /* Body */
+  --text-body:16px;  --leading-body:24px;
+  --text-small:14px; --leading-small:20px;
+  --text-tiny:12px;  --leading-tiny:16px;
+
+  /* Hero */
+  --text-hero:40px;      --leading-hero:48px;     /* mobile */
+  --text-hero-lg:80px;   --leading-hero-lg:104px; /* ≥lg */
+
+
+  /* Meta (informatiivne) */
+  --container-padding-mobile:16px;  --grid-columns-mobile:4;  --grid-gap-mobile:8px;
+  --container-padding-tablet:32px;  --grid-columns-tablet:12; --grid-gap-tablet:32px;
+  --container-padding-desktop:80px; --grid-columns-desktop:12; --grid-gap-desktop:16px;
+  --container-padding-xl:148px;     --grid-columns-xl:12;     --grid-gap-xl:32px;
 }
+  /*default screenid */
+  
+  /* Default Screens
+
+    sm: 640px,
+    md: 768px,
+    lg: 1024px,
+    xl: 1280px,
+    xl: 1536px
+  
