@@ -1,7 +1,9 @@
 <script setup>
-import Homepage from './views/homepage.vue';
+import Header from './components/Header.vue';
+import WorkMainPage from './views/WorkMainPage.vue';
 </script>
 
 <template>
-  <Homepage />
+  <Header />
+  <WorkMainPage />
 </template>

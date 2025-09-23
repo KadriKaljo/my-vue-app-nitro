@@ -5,7 +5,7 @@
   
       <Header class="absolute top-0 left-0 w-full z-20" />
   
-      <div class="relative z-20 mx-auto w-full max-w-[1640px]
+      <div class="relative z-20 mx-auto w-full max-w-[1920px]
                   px-4 sm:px-8 md:px-20 lg:px-36
                   flex flex-col items-center text-center gap-10
                   -translate-y-[6%]">

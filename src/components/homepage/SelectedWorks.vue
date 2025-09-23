@@ -1,6 +1,6 @@
 <template>
     <section class="relative py-16 md:py-24 bg-nitro-shades-50">
-      <div class="mx-auto w-full max-w-[1640px] px-4 sm:px-8 md:px-20 lg:px-36 text-white">
+      <div class="mx-auto w-full max-w-[1920px] px-4 sm:px-8 md:px-20 lg:px-36 text-white">
   
         <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-5">
           <div>

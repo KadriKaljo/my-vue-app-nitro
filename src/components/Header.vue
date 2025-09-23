@@ -2,7 +2,7 @@
     <header class="w-full bg-transparent">
       <div 
         class="h-[60px] md:h-[63px] 
-               max-w-[1640px] mx-auto 
+               max-w-[1920px] mx-auto 
                flex items-center justify-between 
                px-container-padding-mobile 
                md:px-container-padding-tablet
