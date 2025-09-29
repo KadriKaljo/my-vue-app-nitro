@@ -1,7 +1,7 @@
 <template>
     <section class="relative py-16 md:py-24 bg-nitro-shades-50">
       <div class="mx-auto w-full max-w-[1920px] px-4 sm:px-8 md:px-20 lg:px-36 text-white">
-  
+        <Header class="absolute top-0 left-0 w-full z-20" />
         <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-5">
           <div>
             <h2
@@ -72,6 +72,7 @@
   </template>
   
   <script setup>
+  import Header from '../Header.vue'
   import SelectedWorksCard from './SelectedWorksCard.vue'
   import TagCard from './TagCard.vue'
   </script>

@@ -2,7 +2,7 @@
     <section class="relative py-16 md:py-24 bg-nitro-shades-50">
       <div class="mx-auto w-full max-w-[1920px] px-4 sm:px-8 md:px-20 lg:px-36">
         <div class="flex flex-col gap-[100px]">
-          <!-- Heading -->
+
           <div class="flex flex-col gap-5 md:text-left">
             <p class="text-nitro-green-400 font-display font-bold
                       text-heading-5 leading-heading-5">

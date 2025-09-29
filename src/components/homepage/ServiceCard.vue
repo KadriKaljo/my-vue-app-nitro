@@ -10,9 +10,9 @@
       <img
         v-if="hoverIcon"
         :src="hoverIcon"
-        :alt="`${title} hover`"
+        :alt="title"
         class="w-14 h-14 absolute inset-0 m-auto opacity-0 group-hover:opacity-100"
-      />
+      />    
     </div>
 
     <h3 class="text-white text-2xl md:text-3xl font-semibold mb-2">{{ title }}</h3>

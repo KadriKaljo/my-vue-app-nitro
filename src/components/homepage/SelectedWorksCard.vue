@@ -4,8 +4,8 @@
             <img :src="photo" :alt="title" class="absolute inset-0 w-full h-full object-cover" /> 
         </div>
 
-        <div class="flex items-center justify-between gap-4 mb-2">
-            <h2 class="text-heading-2 font-display mb-2">{{ title }}</h2> 
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-2">
+            <h2 class="text-heading-2 font-display">{{ title }}</h2> 
         
             <div class="flex items-center flex-wrap gap-2">
                 <slot name="tags" />
