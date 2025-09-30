@@ -3,5 +3,5 @@ import WorkMainPage from './views/WorkMainPage.vue';
 </script>
 
 <template>
-  <WorkMainPage />
+  <RouterView />
 </template>
